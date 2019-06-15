@@ -30,7 +30,8 @@ var sorryjakoSettings = {
     animalco: true,
     papei: true,
     snaq: true,
-    kostelecke: true, 
+    kostelecke: true,
+    iiizy: true, 
     bilbo: true,
     studena: {
       masna: true
