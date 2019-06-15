@@ -1,0 +1,15 @@
+.sorryjakoClass.sorryjakoTransparent {
+  opacity: 0.2 !important;
+}
+
+.sorryjakoClass.sorryjakoMark {
+  border-top: red 3px solid !important;
+}
+
+.sorryjakoClass.sorryjakoHide {
+  display: none !important;
+}
+
+#whisperer .sorryjakoClass.sorryjakoMark, #whisperer .sorryjakoClass.sorryjakoTransparent {
+  display: block !important;
+}
