@@ -409,7 +409,7 @@ var sorryjakoSettings = {
           nodeType: "name"
         }      
       },
-      /* Košík - pravý sloupec */
+      /* Košík - pravý sloupec - version 1 */
       {
         id: "Cart__products",
         idType: "class",
@@ -425,15 +425,41 @@ var sorryjakoSettings = {
           }        
         }      
       },
+      /* Košík - pravý sloupec - version 2 */
+      {
+        id: "cart",
+        idType: "id",
+        nodeType: "id",
+        subNode: {
+          id: "li",
+          idType: "tag",
+          nodeType: "product",
+          subNode: {
+            id: "productName",
+            idType: "class",
+            nodeType: "name"           
+          }        
+        }      
+      },
       /* Checkout review */
       {
-        id: "CartReviewItem__wrapper",
-        idType: "class",
-        nodeType: "product",
+        id: "main",
+        idType: "tag",
+        nodeType: "id",
         subNode: {
-          id: "CartReviewItem__nameLink",
-          idType: "class",
-          nodeType: "name"        
+          id: "section",
+          idType: "tag",
+          nodeType: "id",
+          subNode: {
+            id: "div",
+            idType: "tag",
+            nodeType: "product",
+            subNode: {
+              id: "nameLink",
+              idType: "class",
+              nodeType: "name",
+            } 
+          }       
         }      
       },
       /* Detail produktu - modál" */
@@ -574,7 +600,7 @@ var sorryjakoSettings = {
             nodeType: "name"
           }              
         }
-      },      
+      },     
       {
         id: "loyalty-offer",
         idType: "class",

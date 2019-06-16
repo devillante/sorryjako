@@ -49,11 +49,8 @@ var productsProcessing = {
     }
   },
   neverSkip: function() {
-    console.log(window.location.href);
-    console.log(sorryjakoSettings.neverSkip);
     for (var key in sorryjakoSettings.neverSkip) {
       if (window.location.href.indexOf(key) > -1) {
-        console.log('never skip');
         return true;
       }
     }
@@ -65,7 +62,6 @@ var productsProcessing = {
     var listOfProducts = productsProcessing.getProducts(); 
     for (var i = 0; i < listOfProducts.length; i++) {
       if (listOfProducts[i].product.className.indexOf('sorryjakoClass') > -1 && !productsProcessing.neverSkip()) {
-        console.log('continue');
         continue;
       }
       var classes = listOfProducts[i].product.className;
