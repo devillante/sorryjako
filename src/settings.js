@@ -31,6 +31,7 @@ var sorryjakoSettings = {
     papei: true,
     snaq: true,
     kostelecke: true,
+    lakto: true,
     iiizy: true,
     grileman: true, 
     bilbo: true,
