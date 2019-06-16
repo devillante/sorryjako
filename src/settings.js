@@ -31,11 +31,13 @@ var sorryjakoSettings = {
     papei: true,
     snaq: true,
     kostelecke: true,
-    iiizy: true, 
+    iiizy: true,
+    grileman: true, 
     bilbo: true,
     studena: {
       masna: true
     },
+    ecoproduct: false,
     brejcha: false,
     rosovice: false,
     biopark: false,
@@ -46,11 +48,13 @@ var sorryjakoSettings = {
     kotanyi: false,
     hame: false,
     madeta: false,
+    presticka: false,
     milko: false,
     kunin: false,
     president: false,
     marchesa: false,
     camargue: false,
+    gurmet: false,
     "parky's": true
   },
   productsShops: {
@@ -110,10 +114,12 @@ var sorryjakoSettings = {
       hovezi: {
         orech: true,
         "zadni-orech": true,
-        plec: true,
         flap: true,
         sal: true,
-        klizka: true,
+        klizka: {
+          mladych: false,
+          cca: true
+        },
         kostky: {
           krava: false,
           gulas: true
@@ -122,14 +128,22 @@ var sorryjakoSettings = {
           darfresh: true
         }        
       },
+      svickova: {
+          falesna: true
+        },      
       veprova: {
-        kyta: true,
-        pecene: true,
-        plec: true,
+        pecene: {
+          retizkem: true
+        },
+        plec: {
+          bez: {
+            kosti: true
+          }
+        },
         panenka: true,
         krkovice: true,
         jatra: {
-          "500g)": true
+          "500g": true
         }
       },
       veprove: {
@@ -138,6 +152,13 @@ var sorryjakoSettings = {
         },
         ledvinky: true,
         kostky: true
+      },
+      veprovy: {
+         bok: {
+          kosti: {
+            libovost: true
+          }
+         }
       },
       mrazena: {
         kruti: {
