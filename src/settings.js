@@ -254,7 +254,8 @@ var sorryjakoSettings = {
         },
         toustovy: true,
         cajovka: true,
-        sunkacek: true
+        sunkacek: true,
+        polican: true
       },
       rohlik: {
         tukovy: true
