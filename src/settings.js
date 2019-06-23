@@ -38,6 +38,30 @@ var sorryjakoSettings = {
     studena: {
       masna: true
     },
+    wholebake: false,
+    nutrend: false,
+    corny: false,
+    rupa: false,
+    odkolek: true,
+    odkolkuv: true,    
+    flapjack: {
+      nutty: false,
+      coko: {
+        mandle: false
+      },
+      natural: false,
+      pearls: false,
+      'pearl\'s': false,
+      flapjack: true
+    },
+    cerea: true,
+    toast: {
+      tip: true
+    },
+    delta: {
+      krupky: false,
+      delta: true
+    },
     ecoproduct: false,
     brejcha: false,
     rosovice: false,
@@ -184,14 +208,18 @@ var sorryjakoSettings = {
     nakupitescocz: {
       maslo: {
         tesco: false,
-        "250g": true // warning
+        '250g': true // warning
       },
       studena: {
         masna: true,
         tataracek: true
       },
       picanha: true,
-      maminha: true,       
+      maminha: true,
+      kobliha: {
+        merunkovou: false,
+        kobliha: true
+      },       
       tesco: {
         value: {
           jatrovka: true,
@@ -255,7 +283,10 @@ var sorryjakoSettings = {
         toustovy: true,
         cajovka: true,
         sunkacek: true,
-        polican: true
+        polican: true,
+        buchticky: {
+          svestkami: true
+        }
       },
       rohlik: {
         tukovy: true
@@ -264,10 +295,17 @@ var sorryjakoSettings = {
         tukova: true
       },
       chleb: {
-        zitny: {
-          "500g": true
+        zitan: true,
+        roku: true,
+        kvaskovy: true,
+        konzumni: {
+          puleny: true,
+          ctvrtka: true,
+          konzumni: true
         },
-        roku: true
+        sumavsky: {
+          bochnik: true
+        }
       },
       vinna: {
         klobasa: {
