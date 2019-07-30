@@ -8,6 +8,9 @@ var sorryjakoSettings = {
     olma: true,
     olmici: true,
     auto: false,
+    babiny: {
+      ekofarma: false
+    },
     agrofert: true,
     hodice: true,
     krahulik: true,   
