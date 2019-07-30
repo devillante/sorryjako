@@ -42,6 +42,12 @@ var sorryjakoSettings = {
     nutrend: false,
     corny: false,
     rupa: false,
+    trek: {
+      cocoa: false
+    },
+    creative: {
+      nature: false
+    },
     odkolek: true,
     odkolkuv: true,    
     flapjack: {
@@ -54,7 +60,7 @@ var sorryjakoSettings = {
       'pearl\'s': false,
       flapjack: true
     },
-    cerea: true,
+    cerea: true, 
     toast: {
       tip: true
     },
