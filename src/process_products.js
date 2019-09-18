@@ -57,11 +57,18 @@ var productsProcessing = {
     return false;
   },
   sorryjakoFilterProducts: function() {
+
+    var locationChanged = false;
+    if (window.location.href != productsProcessing.currentUrl) {
+      locationChanged = true;
+      productsProcessing.currentUrl = window.location.href; 
+    } 
+
     var markupHost = sorryjakoProcessHelper.removeDots(sorryjakoHost);
     var products = Object.assign(sorryjakoSettings.products, sorryjakoSettings.productsShops[markupHost]);
     var listOfProducts = productsProcessing.getProducts(); 
     for (var i = 0; i < listOfProducts.length; i++) {
-      if (listOfProducts[i].product.className.indexOf('sorryjakoClass') > -1 && !productsProcessing.neverSkip()) {
+      if (listOfProducts[i].product.className.indexOf('sorryjakoClass') > -1 && (!productsProcessing.neverSkip() || locationChanged == false)) {
         continue;
       }
       var classes = listOfProducts[i].product.className;
@@ -134,7 +141,8 @@ var productsProcessing = {
     return productsProcessing.products;
   },    
   lastProduct : {},
-  products : []    
+  products : [],
+  currentUrl : ''      
 }
 
 var sorryjakoObserver = {
