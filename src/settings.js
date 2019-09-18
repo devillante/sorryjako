@@ -377,6 +377,9 @@ var sorryjakoSettings = {
         },
         morkove: {
           kosti: true
+        },
+        krizove: {
+          kosti: true
         }
       },
       veprova: {
@@ -387,6 +390,10 @@ var sorryjakoSettings = {
         },
         jatra: {
           volna: true // warning
+        },
+        zebirka: {
+          tesco: false,
+          zebirka: true
         }
       },
       zabijackovy: {
