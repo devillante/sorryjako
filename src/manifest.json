@@ -4,7 +4,7 @@
   "name": "#sorryjako: Nakupujte bez Babiše",
   "short_name": "sorryjako",
   "description": "Odfiltruje výrobky Andreje Babiše z nabídky prodejců potravin.",
-  "version": "1.4",
+  "version": "1.5",
 
   "background": {
     "scripts": ["settings.js", "sorryjako.js"],
