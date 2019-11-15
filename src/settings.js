@@ -551,166 +551,50 @@ var sorryjakoSettings = {
       }
     ],
     "kosikcz": [
+      /* produkt ve vypisech, sliderech, nabidkach, oblibenych a checkoutu */
       {
-        id: "zone-product-detail",
+        id: "product-box__wrapper",
         idType: "class",
         nodeType: "product",
         subNode: {
-          id: "block-title",
+          id: "product-box__info__name",
           idType: "class",
-          nodeType: "id",
-          subNode: {
-            id: "h1",
-            idType: "tag",
-            nodeType: "name",           
-          }          
+          nodeType: "name",
+        }      
+      },
+      /* Hledani - naseptavac */
+      {
+        id: "search-results__products__item",
+        idType: "class",
+        nodeType: "product",
+        subNode: {
+          id: "js-product-name",
+          idType: "class",
+          nodeType: "name",
         }
       },
+      /* Detail produktu + modal */
       {
-        id: "product-detail-related",
+        id: "product-detail",
         idType: "class",
-        nodeType: "id",
+        nodeType: "product",
         subNode: {
-          id: "product-item",
-          idType: "class",
-          nodeType: "product",
-          subNode: {
-            id: "product-item-info",
-            idType: "class",
-            nodeType: "id",
-            subNode: {
-              id: "h5",
-              idType: "tag",
-              nodeType: "id",
-              subNode: {
-                id: "a",
-                idType: "tag",
-                nodeType: "name",              
-              }            
-            }           
-          }        
-        }
-      },                   
-      {
-        id: "suggester-table",
-        idType: "class",
-        nodeType: "id",
-        subNode: {
-          id: "tr",
+          id: "h1",
           idType: "tag",
-          nodeType: "product",
-          subNode: {
-            id: "suggester-title-link",
-            idType: "class",
-            nodeType: "name"
-          }
-        }
-      },      
-      {
-        id: "block-product-detail",
-        idType: "class",
-        nodeType: "product",
-        subNode: {
-          id: "product-detail-info",
-          idType: "class",
-          nodeType: "id",
-          subNode: {
-            id: "h2",
-            idType: "tag",
-            nodeType: "id",
-            subNode: {
-              id: "a",
-              idType: "tag",
-              nodeType: "name"
-            }            
-          }              
-        }
-      },      
-      {
-        id: "product-item",
-        idType: "class",
-        nodeType: "product",
-        subNode: {
-          id: "product-item-info",
-          idType: "class",
-          nodeType: "id",
-          subNode: {
-            id: "product-name",
-            idType: "class",
-            nodeType: "name"
-          }              
-        }
+          nodeType: "name"
+        }      
       },
+      /* Right floating basket */
       {
-        id: "product-item",
+        id: "basket__product",
         idType: "class",
         nodeType: "product",
         subNode: {
-          id: "out-of-stock",
+          id: "basket__product-name",
           idType: "class",
-          nodeType: "id",
-          subNode: {
-            id: "product-name",
-            idType: "class",
-            nodeType: "name"
-          }              
-        }
-      },     
-      {
-        id: "loyalty-offer",
-        idType: "class",
-        nodeType: "product",
-        subNode: {
-          id: "offer-text",
-          idType: "class",
-          nodeType: "name",        
-        }
-      },
-      {
-        id: "week-offer",
-        idType: "class",
-        nodeType: "product",
-        subNode: {
-          id: "offer-text",
-          idType: "class",
-          nodeType: "name",        
-        }
-      },
-      {
-        id: "cart-item",
-        idType: "class",
-        nodeType: "product",
-        subNode: {
-          id: "cart-text",
-          idType: "class",
-          nodeType: "id",
-          subNode: {
-            id: "a",
-            idType: "tag",
-            nodeType: "name",        
-          }                  
-        }
-      },
-      {
-        id: "snippet--recapitulation",
-        idType: "id",
-        nodeType: "id",
-        subNode: {
-          id: "tr",
-          idType: "tag",
-          nodeType: "product",
-          subNode: {
-            id: "cart-item-title",
-            idType: "class",
-            nodeType: "id",
-            subNode: {
-              id: "a",
-              idType: "tag",
-              nodeType: "name",        
-            }                    
-          }                  
-        }
-      }                                    
+          nodeType: "name"
+        }      
+      }
     ],
     "nakupitescocz": [
     
