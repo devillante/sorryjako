@@ -41,6 +41,9 @@ var productsProcessing = {
       case "mark":
           product.className += " sorryjakoMark";
           break;        
+      case "crosslines":
+            product.className += " sorryjakoCrosslines";
+            break;
       case "hide":
           product.className += " sorryjakoHide";
           break;
@@ -77,6 +80,7 @@ var productsProcessing = {
       classes = classes.replace('sorryjakoMark','');
       classes = classes.replace('sorryjakoHide','');
       classes = classes.replace('sorryjakoTransparent','');
+      classes = classes.replace('sorryjakoCrosslines','');
       listOfProducts[i].product.className = classes;
       if (productsProcessing.isBabisovo(listOfProducts[i].productName, products)) {
         productsProcessing.processProduct(listOfProducts[i].product);
