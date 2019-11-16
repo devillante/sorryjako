@@ -2,6 +2,11 @@
   opacity: 0.2 !important;
 }
 
+.sorryjakoClass.sorryjakoCrosslines {
+  opacity: 0.2 !important;
+  background: repeating-linear-gradient(45deg, #ff0000, #ff0000 1px, #ffffff 1px, #ffffff 10px);
+}
+
 .sorryjakoClass.sorryjakoMark {
   border-top: red 3px solid !important;
 }
